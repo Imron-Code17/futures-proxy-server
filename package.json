@@ -1,0 +1,19 @@
+{
+  "name": "futures-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for Binance Futures API",
+  "main": "futures-proxy-server.js",
+  "scripts": {
+    "start": "node futures-proxy-server.js",
+    "dev": "nodemon futures-proxy-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
